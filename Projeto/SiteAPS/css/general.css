@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*pagina inteira*/
+body {
+  margin: 0px;
+  font-family: Arial;
+}
+
+/*imagem principal*/
+.imgPrincipal {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+/*menu*/
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0047ab;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.selecionado {
+  background-color: black;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0047ab;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: white;
+}
+.dropdown-content a:hover {
+  background-color: #000000
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*conteudo*/
+.conteudo {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+div.texto {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+p.texto {
+  text-align: justify;
+  line-height: 1.7em;
+  text-indent: 50px;
+}
+p.subtitu{
+  font-size: 18px;
+  text-align: justify;
+}
+
+.img {
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*rodape*/
+.rodape {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: #0047ab;
+  font-size: 12px;
+  color: white;
+  overflow: auto;
+}
+
+.desenRodape {
+  padding-left: 210px;
+}
+
+.logoRodape {
+  float: right;
+  width: 6%;
+  padding-right: 220px;
+}
+
+figure{
+  margin-bottom: 50px;
+  text-align: center;
+}
